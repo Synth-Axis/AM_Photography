@@ -1,1 +1,55 @@
-/*# sourceMappingURL=styles.css.map */
+@font-face {
+  font-family: "siteFont";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+body {
+  background-color: #f9f9f9;
+  color: #4a4a4a;
+  margin: 0;
+  font-family: "siteFont", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.link {
+  cursor: pointer;
+  text-underline-offset: 0.3rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  padding-top: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav div img {
+  border-radius: 50%;
+  width: 50px;
+}
+nav div .menu {
+  display: flex;
+  gap: 48px;
+}
+nav div .menu li {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+nav svg {
+  width: 50px;
+}/*# sourceMappingURL=styles.css.map */
