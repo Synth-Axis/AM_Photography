@@ -1,0 +1,9 @@
+*.env
+
+*.txt
+
+favicon.ico
+
+assets/
+
+vendor/
