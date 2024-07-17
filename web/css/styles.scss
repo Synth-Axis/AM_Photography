@@ -12,46 +12,43 @@ body {
     -moz-osx-font-smoothing: grayscale;
     max-width: 1600px;
     margin: 0 auto;
-}
 
-.link {
-cursor: pointer;
-  text-underline-offset: .3rem;
-  font-size: 1.4rem;
-  font-family: inherit;
-}
+    main{
 
-ul{
-    list-style: none;
-}
+        nav {
+            padding-top: 2rem;
+            padding-left: 20rem;
+            padding-right: 20rem;
+            @include give-flex-row(center, space-between);
+            
+            div {
+                @include give-flex-row(center, space-between);
+        
+                img{
+                    border-radius: 50%;
+                    width: 50px;
+                }
 
-nav {
-    padding-top: 2rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    @include give-flex-row(center, space-between);
+                .menu{
+                    list-style: none;
+                    display: flex;
+                    gap: 64px; 
+                    
+                    .link {
+                        cursor: pointer;
+                        text-underline-offset: .3rem;
+                        font-size: 0.9rem;
+                        font-weight: 500;
+                        letter-spacing: 0.6px; 
+                        font-family: inherit;
+                    }   
+                }  
+            }
     
-    div {
-        @include give-flex-row(center, space-between);
-
-        img{
-            border-radius: 50%;
-            width: 50px;
-        }
-
-        .menu{
-            display: flex;
-            gap: 48px; 
-
-            li{
-                font-size: 0.9rem;
-                font-weight: 300;
-                letter-spacing: 0.6px; 
+            svg {
+                width: 50px;
             }
         }
-    
-    }
-    svg {
-        width: 50px;
     }
 }
+

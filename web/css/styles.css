@@ -12,19 +12,7 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
-
-.link {
-  cursor: pointer;
-  text-underline-offset: 0.3rem;
-  font-size: 1.4rem;
-  font-family: inherit;
-}
-
-ul {
-  list-style: none;
-}
-
-nav {
+body main nav {
   padding-top: 2rem;
   padding-left: 20rem;
   padding-right: 20rem;
@@ -32,24 +20,28 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-nav div {
+body main nav div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-nav div img {
+body main nav div img {
   border-radius: 50%;
   width: 50px;
 }
-nav div .menu {
+body main nav div .menu {
+  list-style: none;
   display: flex;
-  gap: 48px;
+  gap: 64px;
 }
-nav div .menu li {
+body main nav div .menu .link {
+  cursor: pointer;
+  text-underline-offset: 0.3rem;
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.6px;
+  font-family: inherit;
 }
-nav svg {
+body main nav svg {
   width: 50px;
 }/*# sourceMappingURL=styles.css.map */

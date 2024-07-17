@@ -13,10 +13,10 @@
             <div>
                 <img class="nav-logo" src="../../assets/img/Logo.png" alt="Logo for AM-Photography">
                 <ul class="menu">
-                    <li class="link">Ínicio</li>
-                    <li class="link">Sobre Mim</li>
-                    <li class="link">Portfolio</li>
-                    <li class="link">Contactos</li>
+                    <li class="link">ÍNICIO</li>
+                    <li class="link">SOBRE MIM</li>
+                    <li class="link">PORTFOLIO</li>
+                    <li class="link">CONTACTOS</li>
                 </ul>
             </div>
             <svg class="icon icon-cart-empty" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
