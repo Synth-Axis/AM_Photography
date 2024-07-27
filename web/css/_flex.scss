@@ -3,3 +3,9 @@
     align-items: $align-items;
     justify-content: $justify-content;
   }
+
+  @mixin give-flex-column($align-items, $justify-content) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+  }

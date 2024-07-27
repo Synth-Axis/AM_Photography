@@ -1,24 +1,34 @@
-@font-face {
-  font-family: "siteFont";
-  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
+
 body {
+  font-size: 100%;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
   background-color: #f9f9f9;
   color: #4a4a4a;
   margin: 0;
-  font-family: "siteFont", sans-serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 1600px;
-  margin: 0 auto;
+  max-width: 3840px;
 }
 body main nav {
-  padding-top: 2rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  margin: 2rem auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 body main nav div {
   display: flex;
@@ -30,6 +40,7 @@ body main nav div img {
   width: 50px;
 }
 body main nav div .menu {
+  margin-left: 32px;
   list-style: none;
   display: flex;
   gap: 64px;
@@ -38,10 +49,77 @@ body main nav div .menu .link {
   cursor: pointer;
   text-underline-offset: 0.3rem;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: 0.6px;
   font-family: inherit;
 }
+body main nav div .menu .link:hover {
+  text-decoration: underline;
+  transition: ease-in-out 250ms;
+}
 body main nav svg {
+  margin-left: 256px;
   width: 50px;
+}
+body .hero-banner {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/img/IMG_3639.JPG);
+  width: 100%;
+  height: 1100px;
+  background-size: cover;
+  background-position: center;
+}
+body .hero-banner .hero-text-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+body .hero-banner .hero-text-container .title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+body .hero-banner .hero-text-container .title-container h2 {
+  background-color: rgba(29, 29, 29, 0.3803921569);
+  font-size: 64px;
+  color: #ffffff;
+  padding: 24px;
+}
+body .hero-banner .hero-text-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+body .hero-banner .hero-text-container div p {
+  background-color: rgba(29, 29, 29, 0.3803921569);
+  padding: 1rem 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+body .hero-banner .hero-text-container div {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+body .hero-banner .hero-text-container div .button {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 24px 36px;
+}
+body .hero-banner .hero-text-container div .button:hover {
+  scale: 1.05;
+  transition: ease-in-out 200ms;
+}
+
+.copyrights {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=styles.css.map */
